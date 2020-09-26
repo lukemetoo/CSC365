@@ -1,0 +1,398 @@
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+WOOLERY, NOLAN, 51
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+WOOLERY, NOLAN, 2, 104, STEIB, GALE
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+KERBS, BENITO, 102
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+RACANELLO, NOEL, 6, 102, 56, 3.13
+CORONADO, DIMPLE, 6, 102, 52, 2.88
+BOYTER, WAN, 6, 102, 55, 3.1
+KEMERER, ROSETTA, 6, 102, 52, 2.84
+DEMARTINI, DEWAYNE, 6, 102, 55, 2.93
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+HAMER, GAVIN, 108
+Average GPA 2.95
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+LIBRANDI, TODD
+HAVIR, BOBBIE
+SARAO, DIEDRA
+VANCOTT, MIKE
+WICINSKY, TERESE
+KOZOLA, BUSTER
+MULLINGS, LEIGHANN
+BUSSMANN, BILLY
+BERBES, DICK
+MULGREW, RANDELL
+TOWLEY, LANE
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+COOL, REUBEN, 101
+HANTZ, JED, 105
+CHIONCHIO, PERLA, 112
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+LAMKIN, TAMA, 3.23, 55, NISTENDIRK, NANCY
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+KRAKE, VALENTIN, 2.78, 56, GAMBREL, JAE
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+SCHOENECKER, PHUONG
+RACANELLO, NOEL
+STERBACK, PETER
+FINCHMAN, MATHILDA
+ZAPPAVIGNA, ELLIOTT
+OBREIN, STAN
+CORONADO, DIMPLE
+SAENPHIMMACHA, NUMBERS
+BOYTER, WAN
+BREVO, JANNETTE
+CLECKLER, FLOY
+KRAKE, VALENTIN
+KEMERER, ROSETTA
+BEAN, INGER
+DEMARTINI, DEWAYNE
+CREMEANS, RANDOLPH
+FEYEREISEN, WILFREDO
+WERST, LEON
+LAMKIN, TAMA
+KREESE, CARRIE
+FRIEDSTROM, REED
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+WOOLERY, NOLAN, 104
+STERBACK, PETER, 111
+LIBRANDI, TODD, 108
+RAPOSE, ALONZO, 105
+COVINGTON, TOMAS, 107
+MULLINGS, LEIGHANN, 108
+DURAND, CARLEE, 101
+FRIEDSTROM, REED, 106
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+Bus route: 51 Average GPA: 3.02
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+Grade: 2 Average GPA: 2.95
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+0 : 0
+1 : 2
+2 : 13
+3 : 9
+4 : 15
+5 : 0
+6 : 21
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+101 : 1
+102 : 5
+103 : 2
+104 : 2
+105 : 6
+106 : 2
+107 : 7
+108 : 11
+109 : 5
+110 : 2
+111 : 9
+112 : 8
+
+S[tudent]: <lastname> [B[us]]
+T[eacher]: <lastname> [G[PA]]
+C[lass]: <number> T[eacher]|S[tudent]
+B[us]: <number>
+G[rade]: <number> [H[igh]|L[ow]|T[eacher]]
+A[verage]: <number> [B[us]]
+I[nfo]: G[rade]|R[oom]
+Q[uit]
+
+
+Goodbye

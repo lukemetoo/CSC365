@@ -1,0 +1,193 @@
+// Lucas Greenelsh (greenels)
+// CSC 365
+// Lab 1-a test suite
+
+//TC-1
+//Tests requirements R3, R5
+//Short form command name bus, existing student
+//Expected output: WOOLERY, NOLAN, 51
+
+S: WOOLERY B
+
+//TC-2
+//Tests requirements R3, R4
+//Short form command name, existing student
+//Expected output: WOOLERY, NOLAN, 2, 104, STEIB, GALE
+
+S: WOOLERY
+
+//TC-3
+//Tests requirements R3, R4
+//Short form command name, non-existing student
+//Expected output: <empty line>
+
+S: 4
+
+//TC-4
+//Tests requirements R3, R4
+//Short form command name, non-existing student
+//Expected output: <empty line>
+
+S
+
+//TC-5
+//Tests requirements R3, R6
+//Short form command teacher, existing teacher
+//Expected output: LIBRANDI, TODD                                                                   
+//  					 HAVIR, BOBBIE                                                                    
+//  					 SARAO, DIEDRA                                                                    
+//  					 VANCOTT, MIKE                                                                    
+//  					 WICINSKY, TERESE                                                                 
+//  					 KOZOLA, BUSTER                                                                   
+//  					 MULLINGS, LEIGHANN                                                               
+//  				    BUSSMANN, BILLY                                                                  
+//  					 BERBES, DICK                                                                     
+//  					 MULGREW, RANDELL                                                                 
+//  					 TOWLEY, LANE  
+
+T: HAMER
+
+//TC-6
+//Tests requirements R3, R6
+//Short form command teacher, non-existing teacher 
+//Expected output: <empty line>
+
+T: 6
+
+//TC-7
+//Tests requirements R3, R6
+//Short form command teacher, non-existing teacher 
+//Expected output: <empty line>
+
+T
+
+//TC-8
+//Tests requirements R3, R9
+//Short form command grade high, existing grade 
+//Expected output: LAMKIN, TAMA, 3.23, 55, NISTENDIRK, NANCY 
+
+G: 6 H
+
+//TC-9
+//Tests requirements R3, R9
+//Short form command grade low, existing grade 
+//Expected output: KRAKE, VALENTIN, 2.78, 56, GAMBREL, JAE  
+
+G: 6 L
+
+//TC-10
+//Tests requirements R3, R9
+//Short form command grade <invalid parameter>, existing grade 
+//Expected output: <empty line>
+
+G: 6 t
+
+//TC-11
+//Tests requirements R3, R7
+//Short form command grade, existing grade 
+//Expected output: SCHOENECKER, PHUONG                                                              
+//						 RACANELLO, NOEL                                                                  
+//					    STERBACK, PETER                                                                  
+//					    FINCHMAN, MATHILDA                                                               
+//						 ZAPPAVIGNA, ELLIOTT                                                              
+// 				    OBREIN, STAN                                                                     
+//					    CORONADO, DIMPLE                                                                 
+// 			    	 SAENPHIMMACHA, NUMBERS                                                           
+//						 BOYTER, WAN                                                                      
+//					    BREVO, JANNETTE                                                                  
+//					    CLECKLER, FLOY                                                                   
+// 			       KRAKE, VALENTIN                                                                  
+//						 KEMERER, ROSETTA                                                                 
+//					    BEAN, INGER                                                                      
+//						 DEMARTINI, DEWAYNE                                                               
+//						 CREMEANS, RANDOLPH                                                               
+//						 FEYEREISEN, WILFREDO                                                             
+//						 WERST, LEON                                                                      
+//						 LAMKIN, TAMA                                                                     
+//					    KREESE, CARRIE                                                                   
+//						 FRIEDSTROM, REED
+
+G: 6
+
+//TC-12
+//Tests requirements R3, R7
+//Short form command grade, non-existing grade 
+//Expected output: <empty line>
+
+G: r
+
+//TC-13
+//Tests requirements R3, R7
+//Short form command grade, non-existing grade 
+//Expected output: <empty line>
+
+G
+
+//TC-14
+//Tests requirements R3, R8
+//Short form command bus, existing bus 
+//Expected output: WOOLERY, NOLAN, 104                                                              
+//									 STERBACK, PETER, 111                                                             
+// 								 LIBRANDI, TODD, 108                                                              
+//									 RAPOSE, ALONZO, 105                                                              
+//									 COVINGTON, TOMAS, 107                                                            
+// 								 MULLINGS, LEIGHANN, 108                                                          
+//									 DURAND, CARLEE, 101                                                              
+//									 FRIEDSTROM, REED, 106 
+
+B: 51
+
+//TC-15
+//Tests requirements R3, R8
+//Short form command bus, non-existing bus 
+//Expected output: <empty line>
+
+B: r
+
+//TC-16
+//Tests requirements R3, R8
+//Short form command bus, non-existing bus 
+//Expected output: <empty line>
+
+B
+
+//TC-17
+//Tests requirements R3, R10
+//Short form command average, existing grade 
+//Expected output: Grade: 2 Average GPA: 2.95
+
+A: 2
+
+//TC-18
+//Tests requirements R3, R10
+//Short form command average, non-existing grade 
+//Expected output: <empty line>
+
+A: T
+
+//TC-19
+//Tests requirements R3, R10
+//Short form command average, non-existing grade 
+//Expected output: <empty line>
+
+A
+
+//TC-20
+//Tests requirements R3, R11
+//Short form command info
+//Expected output: 0 : 0                                                                            
+//						 1 : 2                                                                            
+//						 2 : 13                                                                           
+//						 3 : 9                                                                            
+//						 4 : 15                                                                           
+//						 5 : 0                                                                            
+//						 6 : 21 
+
+I
+
+//TC-21
+//Tests requirements R3, R12
+//Short form command quit
+//Expected program termination                                                                            
+
+Q

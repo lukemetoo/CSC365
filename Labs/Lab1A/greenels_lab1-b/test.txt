@@ -1,0 +1,288 @@
+// Lucas Greenelsh (greenels)
+// CSC 365
+// Lab 1-b test suite
+  
+//TC-1
+//Tests requirements R3, R5
+//Short form command name bus, existing student
+//Expected output: WOOLERY, NOLAN, 51  
+
+S: WOOLERY B
+
+//TC-2
+//Tests requirements R3, R4
+//Short form command name, existing student
+//Expected output: WOOLERY, NOLAN, 2, 104, STEIB, GALE
+
+S: WOOLERY
+
+//TC-3
+//Tests requirements R3, R4
+//Short form command name, non-existing student
+//Expected output: <empty line>
+
+S: 4
+
+//TC-4
+//Tests requirements R3, R4
+//Short form command name, non-existing student
+//Expected output: <empty line>
+
+S
+
+//TC-5
+//Tests requirements R3, NR2
+//Short form command name, existing classroom
+//Expected output: KERBS, BENITO, 102
+
+C: 102 T
+
+//TC-6
+//Tests requirements R3, NR1
+//Short form command name, existing classroom
+//Expected output: RACANELLO, NOEL, 6, 102, 56, 3.13                               			  
+						 CORONADO, DIMPLE, 6, 102, 52, 2.88                              
+						 BOYTER, WAN, 6, 102, 55, 3.1                                    
+						 KEMERER, ROSETTA, 6, 102, 52, 2.84                              
+						 DEMARTINI, DEWAYNE, 6, 102, 55, 2.93  
+
+C: 102 S
+
+//TC-7
+//Tests requirements R3, NR2
+//Short form commnand name, non-existing classroom
+//Expected output: <empty line>
+
+C: 3 T
+
+//TC-8
+//Tests requirements R3, NR2
+//Short form commnand name, non-existing classroom
+//Expected output: <empty line>
+
+C: r T
+
+//TC-9
+//Tests requirements R3, NR1
+//Short form commnand name, non-existing classroom
+//Expected output: <empty line>
+
+C: 4 S
+
+//TC-10
+//Tests requirements R3, NR2
+//Short form commnand name, non-existing classroom
+//Expected output: <empty line>
+
+C: d S
+
+//TC-11
+//Tests requirements R3 
+//Short form commnand name, incomplete input 
+//Expected output: <empty line>
+
+C
+
+//TC-12
+//Tests requirements R3, NR5
+//Short form command name, existing teacher
+//Expected output: HAMER, GAVIN, 108                                               
+						 Average GPA 2.95 
+
+T: HAMER G
+
+//TC-13
+//Tests requirements R3, R6
+//Short form command teacher, existing teacher
+//Expected output: LIBRANDI, TODD
+//                 HAVIR, BOBBIE
+//                 SARAO, DIEDRA
+//                 VANCOTT, MIKE
+//                 WICINSKY, TERESE
+//                 KOZOLA, BUSTER
+//                 MULLINGS, LEIGHANN
+//                 BUSSMANN, BILLY
+//                 BERBES, DICK
+//                 MULGREW, RANDELL
+//                 TOWLEY, LANE
+
+T: HAMER
+
+//TC-14                                                                           
+//Tests requirements R3, R6                                                      
+//Short form command teacher, non-existing teacher                               
+//Expected output: <empty line>  
+
+T: 6
+
+//TC-15                                                                           
+//Tests requirements R3, R6                                                      
+//Short form command teacher, incomplete input 
+//Expected output: <empty line>  
+
+T
+
+//TC-16
+//Tests requirements R3, NR3
+//Short form command grade, existing grade
+//Expected output: COOL, REUBEN, 101                                               
+						 HANTZ, JED, 105                                                 
+						 CHIONCHIO, PERLA, 112 
+
+G: 4 T
+
+//TC-17
+//Tests requirements R3, R9
+//Short form command grade high, existing grade
+//Expected output: LAMKIN, TAMA, 3.23, 55, NISTENDIRK, NANCY
+
+G: 6 H
+
+//TC-18
+//Tests requirements R3, R9
+//Short form command grade low, existing grade
+//Expected output: KRAKE, VALENTIN, 2.78, 56, GAMBREL, JAE
+
+G: 6 L
+
+//TC-19
+//Tests requirements R3, R9
+//Short form command grade <invalid parameter>, existing grade
+//Expected output: <empty line>
+
+G: 6 t
+
+//TC-20
+//Tests requirements R3, R7
+//Short form command grade, existing grade
+//Expected output: SCHOENECKER, PHUONG
+//                 RACANELLO, NOEL
+//                 STERBACK, PETER
+//                 FINCHMAN, MATHILDA
+//                 ZAPPAVIGNA, ELLIOTT
+//                 OBREIN, STAN
+//                 CORONADO, DIMPLE
+//                 SAENPHIMMACHA, NUMBERS
+//                 BOYTER, WAN
+//                 BREVO, JANNETTE
+//                 CLECKLER, FLOY
+//                 KRAKE, VALENTIN
+//                 KEMERER, ROSETTA
+//                 BEAN, INGER
+//                 DEMARTINI, DEWAYNE
+//                 CREMEANS, RANDOLPH
+//                 FEYEREISEN, WILFREDO
+//                 WERST, LEON
+//                 LAMKIN, TAMA
+//                 KREESE, CARRIE
+//                 FRIEDSTROM, REED
+
+G: 6
+
+//TC-21                                                                        
+//Tests requirements R3, R7                                                      
+//Short form command grade, non-existing grade                                   
+//Expected output: <empty line>       
+
+G: r
+
+//TC-22
+//Tests requirements R3, R7
+//Short form command grade, non-existing grade
+//Expected output: <empty line>
+
+G
+
+//TC-23
+//Tests requirements R3, R8
+//Short form command bus, existing bus
+//Expected output: WOOLERY, NOLAN, 104
+//                          STERBACK, PETER, 111
+//                          LIBRANDI, TODD, 108
+//                          RAPOSE, ALONZO, 105
+//                          COVINGTON, TOMAS, 107
+//                          MULLINGS, LEIGHANN, 108
+//                          DURAND, CARLEE, 101
+//                          FRIEDSTROM, REED, 106
+
+B: 51
+
+//TC-24
+//Tests requirements R3, R8
+//Short form command bus, non-existing bus
+//Expected output: <empty line>
+
+B: r
+
+//TC-25
+//Tests requirements R3, R8
+//Short form command bus, non-existing bus
+//Expected output: <empty line>
+
+B
+
+//TC-26
+//Tests requirements R3, NR5
+//Short form command average, existing bus
+//Expected output: Bus route: 51 Average GPA: 3.02 
+
+A: 51 B
+
+//TC-27                                                                                                            
+//Tests requirements R3, R10, NR5                                                     
+//Short form command average, existing grade                                     
+//Expected output: Grade: 2 Average GPA: 2.95
+
+A: 2
+
+//TC-28
+//Tests requirements R3, R10
+//Short form command average, non-existing grade
+//Expected output: <empty line>
+
+A: T
+
+//TC-29
+//Tests requirements R3, R10
+//Short form command average, incomplete input
+//Expected output: <empty line>
+
+A
+
+//TC-30
+//Tests requirements R3, R11
+//Short form command info
+//Expected output: 0 : 0
+//                 1 : 2
+//                 2 : 13
+//                 3 : 9
+//                 4 : 15
+//                 5 : 0
+//                 6 : 21
+
+I: G
+
+//TC-31
+//Tests requirements R3, NR4 
+//Short form command info room 
+//Expected output: 101 : 1                                                         
+//					  	 102 : 5                                                         
+//						 103 : 2                                                         
+// 				    104 : 2                                                         
+// 					 105 : 6                                                         
+//					    106 : 2                                                         
+// 					 107 : 7                                                         
+//					    108 : 11                                                        
+//					    109 : 5                                                         
+// 					 110 : 2                                                         
+//					    111 : 9                                                         
+//						 112 : 8     
+
+I R
+
+//TC-32
+//Tests requirements R3, R12
+//Short form command quit
+//Expected program termination
+
+Q

@@ -1,0 +1,8 @@
+// Lucas Greenelsh (greenels)
+// CSC 365
+
+To run from the terminal in a UNIX shell, type:
+	
+	java schoolsearch
+
+in the directory where the program files are stored.

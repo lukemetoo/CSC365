@@ -1,0 +1,32 @@
+// Lucas Greenelsh (greenels)
+// CSC 365
+
+To run from the terminal in a UNIX shell, type:
+	
+	java schoolsearch
+
+in the directory where the program files are stored.
+
+Services meeting requirements for Lab1-b are as follows:
+	
+	Meeting NR1
+
+		- Command: C[lassroom]: <number> S[tudent]
+
+	Meeting NR2
+
+		- Command: C[lassroom]: <number> T[eacher]
+
+	Meeting NR3
+
+		- Command: G[rade]: <number> T[eacher]
+
+	Meeting NR4
+
+	 	- Command: I[nfo]: R[oom]
+
+	Meeting NR5
+
+		- Command: T[eacher]: <lastname> G[rade]
+		- Command: A[verage]: <number> B[us]
+		- Command: A[verage]: <number>
